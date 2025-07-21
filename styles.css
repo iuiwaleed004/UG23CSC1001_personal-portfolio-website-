@@ -1,0 +1,59 @@
+/* General Styles */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.h1, h2, h3 {
+  color: #2c3e50;
+}
+
+.section {
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.#welcome-section {
+  background-color: #e8f5e9;
+  text-align: center;
+}
+
+.#projects .project-tile {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.#projects a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #00695c;
+  font-weight: bold;
+}
+
+.#projects a:hover {
+  text-decoration: underline;
+}
+
+.img {
+   align-item: center;
+   border-radius: 10%;
+   width: 120px;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #fff;
+}
